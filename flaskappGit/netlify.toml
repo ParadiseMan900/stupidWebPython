@@ -1,9 +1,13 @@
 [build]
-  command = "python some_app.py"
-  publish = "templates/"
+  publish = "build"
+  command = "npm run build"
 
-[[plugins]]
-  package = "netlify-plugin-inline-critical-css"
+[[redirects]]
+  from = "/static/*"
+  to = "/static/:splat"
+  status = 200
 
-  [plugins.inputs]
-    minify = true
+[[headers]]
+  for = "/static/*"
+    [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
