@@ -1,0 +1,4 @@
+# Build settings
+[build]
+  command = "python some_app.py" # команда для запуска вашего приложения
+  publish = "." # папка, из которой будут развернуты файлы веб-сайта
