@@ -1,0 +1,7 @@
+pip os
+pip flask
+pip PIL
+pip random
+pip io
+pip matplotlib
+pip werkzeug
