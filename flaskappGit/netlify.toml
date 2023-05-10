@@ -1,8 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "pip install -r requirements.txt && python some_app.py"
+  publish = "templates/, static/"
 
-[[redirects]]
-  from = "/old-page"
-  to = "/new-page"
-  status = 301
+[dev]
+  command = "FLASK_APP=some_app flask run"
+  targetPort = 1234
