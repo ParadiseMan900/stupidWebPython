@@ -1,0 +1,9 @@
+[build]
+  command = "python some_app.py"
+  publish = "templates/"
+
+[[plugins]]
+  package = "netlify-plugin-inline-critical-css"
+
+  [plugins.inputs]
+    minify = true
