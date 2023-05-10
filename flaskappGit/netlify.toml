@@ -1,7 +1,0 @@
-[build]
-  command = "pip install -r requirements.txt && python some_app.py"
-  publish = "templates/, static/"
-
-[dev]
-  command = "FLASK_APP=some_app flask run"
-  targetPort = 1234
