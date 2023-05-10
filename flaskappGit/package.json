@@ -1,13 +1,14 @@
 {
-  "name": "example-project",
+  "name": "my-app",
   "version": "1.0.0",
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "axios": "^0.19.2"
+  "description": "",
+  "scripts": {
+    "start": "python some_app.py"
   },
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "webpack": "^4.44.1"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flask": "^2.0.1",
+    "flask-cors": "^3.0.10"
   }
 }
