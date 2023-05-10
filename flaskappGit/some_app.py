@@ -174,4 +174,4 @@ def graph2_tut(filename):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=1238)
+    app.run(debug=True)
