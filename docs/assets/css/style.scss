@@ -1,0 +1,16 @@
+$primary-color: #0366d6;
+
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif;
+  color: $primary-color;
+}
